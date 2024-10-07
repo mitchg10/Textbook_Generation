@@ -1,0 +1,4 @@
+Subject,Topic,Example,Codes
+Computer Science,Data Structures and Algorithms,"In this chapter, we delve into the intricacies of implementing a hash table with open addressing for handling collisions efficiently. Students will learn step-by-step how to design a collision resolution strategy using linear probing, quadratic probing, or double hashing. Practical exercises involve writing a C++ function that initializes and updates a hash table with given key-value pairs while maintaining load factor constraints. By the end of this section, learners will understand how to choose an appropriate probe sequence based on specific application requirements, ensuring optimal performance in various data processing scenarios.","PRO,PRAC"
+Computer Science,Data Structures and Algorithms,[],CON
+Computer Science,Data Structures and Algorithms,[],"CON,MATH,UNC,EPIS"

@@ -1,0 +1,11 @@
+﻿Code,Abbrev,Definition
+Conceptual Knowledge,CON,"Core theoretical principles and fundamental concepts that form the basis of engineering understanding, including: basic theories and principles that underpin the engineering discipline, explanations of key engineering concepts and how they relate to each other, fundamental laws and equations central to the field, and abstract models and frameworks used to understand engineering phenomena"
+Historical Knowledge,HIS,"Information about the development of engineering concepts, techniques, and technologies over time"
+Procedural Knowledge,PRO,"Step-by-step explanations of problem-solving methods, experimental procedures, or design processes"
+Interdisciplinary Knowledge,INTER,Connections between the specific engineering discipline and other fields
+Epistemic Knowledge,EPIS,"Information about how knowledge is constructed, validated, and evolves within the engineering field"
+Metacognitive Knowledge,META,Guidance on how to approach learning and problem-solving in engineering
+Ethical Knowledge,ETH,Discussion of ethical considerations in engineering practice and research
+Mathematical Knowledge,MATH,"Equations, derivations, and mathematical models used in engineering"
+Uncertainty and Limitations,UNC,Discussions about the limitations of current knowledge and areas of ongoing research or debate in the field
+Practical and Professional Knowledge,PRAC,"The application of engineering concepts in real-world contexts, including the use of current technologies and adherence to professional standards and practices. This encompasses case studies and real-world problem-solving scenarios, information about current engineering technologies, tools, and software, professional standards, codes, and best practices in engineering, and practical design processes and decision-making in engineering projects"

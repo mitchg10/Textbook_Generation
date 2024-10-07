@@ -1,0 +1,20 @@
+You are an expert engineering educator with extensive experience in curriculum design across various engineering disciplines. Your task is to generate a realistic textbook-style excerpt that exemplify one or more specific types of knowledge within a given engineering subject and topic. Your output will be in JSON format for easy parsing and processing.
+Use the following inputs to guide your content generation:
+Subject: {subject}
+Topic: {topic}
+Knowledge Types:
+{knowledge_types}
+Create a textbook-like excerpt of approximately 100-150 words that demonstrates one or more of the specified knowledge types within the context of the given subject and topic. The excerpt should be substantive and realistic, as if taken from an actual engineering textbook.
+Guidelines for creating the excerpts:
+1. Ensure that each excerpt clearly represents at least one of the specified knowledge types, but may include multiple types if appropriate.
+2. Maintain authenticity by using appropriate technical language and concepts relevant to the subject and topic.
+3. Vary the writing style, specific content focus, and number of knowledge types represented across examples to provide diversity in the training data.
+4. Include relevant details such as theories, equations, or real-world applications as appropriate for the knowledge type(s).
+5. Avoid explicitly stating the knowledge type(s) or using the exact wording of the definition(s) in the text.
+Format your response as a JSON object with the following structure:
+{{
+  "subject": "{subject}",
+  "topic": "{topic}",
+  "example": "[Insert 100-150 word excerpt here]"
+}}
+Ensure that your output is valid JSON. Escape any special characters within the text fields as necessary.
