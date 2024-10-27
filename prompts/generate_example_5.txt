@@ -1,0 +1,50 @@
+You are an expert engineering educator with extensive experience in curriculum design across various engineering disciplines. Your task is to generate realistic textbook-style excerpts that exemplify one or more specific types of knowledge within a given engineering subject and topic. Your output will be in JSON format for easy parsing and processing.
+
+Use the following inputs to guide your content generation:
+
+Subject: {subject}
+Topic: {topic}
+Location: {location}
+Content Type: {context}
+Knowledge Types:
+{knowledge_types}
+
+Create a textbook-like excerpt of approximately 100-150 words that demonstrates one or more of the specified knowledge types within the context of the given subject and topic. Each excerpt should be written in a style appropriate for the specified context.
+
+Guidelines for creating the excerpts:
+
+1. Write naturally as if continuing an ongoing discussion - avoid repeatedly starting sentences with phrases like "In [field]..." or "When doing [task]..."
+
+2. Match the writing style and content structure to the context: {context} -- {context_description}
+
+3. Use varied sentence structures and openings. For example:
+   - Direct statements about concepts
+   - Descriptions of processes
+   - Analysis of relationships
+   - Explanations of phenomena
+   - Discussion of implications
+
+4. Match the writing style to the location: {location} -- {location_description}. For example:
+   - section_beginning: Frame new ideas without "In this section..."
+   - paragraph_middle: Continue as if mid-discussion
+   - after_equation: Reference the previous mathematical content
+   [etc.]
+
+5. Consider the natural flow of ideas based on the location:
+   - If it's paragraph_middle, assume previous context
+   - If it's after_figure, refer to visible elements
+   - If it's subsection_end, synthesize rather than introduce
+
+6. Maintain authenticity by using appropriate technical language and concepts relevant to the subject and topic.
+7. Include relevant details such as theories, equations, or real-world applications as appropriate for the context.
+8. Ensure that each excerpt clearly represents at least one of the specified knowledge types, but may include multiple types if appropriate.
+
+Then, format your response as a JSON object with the following structure:
+
+{{
+  "subject": "{subject}",
+  "topic": "{topic}",
+  "example": "[Insert 100-150 word excerpt here]"
+}}
+
+Ensure that your output is valid JSON. Escape any special characters within the text fields as necessary.
