@@ -1,0 +1,15 @@
+section_type,description
+section_beginning,Opening of a new section
+section_middle,Middle of a section's main content
+section_end,Concluding part of a section
+subsection_beginning,Start of a subsection
+subsection_middle,Middle of a subsection
+subsection_end,End of a subsection
+paragraph_beginning,Start of a new paragraph
+paragraph_middle,Middle of an ongoing paragraph
+paragraph_end,Conclusion of a paragraph
+after_equation,Text following a mathematical expression
+after_figure,Text following a diagram or figure
+after_example,Text following a worked example
+before_exercise,Lead-in to practice problems
+sidebar,Supplementary information box

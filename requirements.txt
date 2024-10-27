@@ -5,3 +5,4 @@ pandas
 numpy
 anthropic
 ollama
+mlx-lm
